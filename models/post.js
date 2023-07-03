@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
         defaultValue: DataTypes.UUIDV1,
       },
       content: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: true,
       },
       image: {
