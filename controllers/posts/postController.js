@@ -14,7 +14,14 @@ require("dotenv").config();
 const post = {
   create: async (req, res) => {
     try {
-      let { filename } = req.file;
+      let filename;
+      if (req.file) {
+        if (typeof req.file === 1) {
+          filename = req.file;
+        } else {
+          filename = req.file.filename;
+        }
+      }
 
       let { content } = req.body;
 
