@@ -1,12 +1,9 @@
 const db = require("../../models/index");
-const User = db.models.user;
-const Follow = db.models.user_following;
+
 const Notify = db.models.notification;
 const Post = db.models.post;
 const Like = db.models.like;
 
-const fs = require("fs");
-const path = require("path");
 require("dotenv").config();
 
 const like_post = {
