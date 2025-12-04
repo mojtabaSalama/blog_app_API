@@ -2,7 +2,7 @@
 
 # description:
 
-it is a node.js app where users _after registering and loging in _ can intract with each other by creating posts ,commenting in each others posts and like them . users alo can follow and unfollow each other to get there posts and other updates .
+it is a node.js backend API built with Node.js, Express, MySQL2, and Sequelize, where users _after registering and loging in _ can intract with each other by creating posts ,commenting in each others posts and like them . users alo can follow and unfollow each other to get there posts and other updates .
 
 # setup :
 
